@@ -1897,4 +1897,15 @@ body.popup-open {
 
 .ui-popup {
   z-index: 99999 !important;
+
+}
+
+
+@media (max-width: 768px) {
+
+  .cart-count {
+    top: -5px;
+    right: 5px; /* keep it inside button on mobile */
+  }
+
 }
